@@ -21,7 +21,7 @@ La API de CarID tiene tres endpoints principales:
 
 2. **POST /predict_and_annotate**: Este endpoint recibe una imagen y devuelve la imagen con la predicción de a qué marca pertenece, la confianza de la predicción y el tiempo de ejecución.
 
-3. **GET /reports**: Este endpoint guarda todas las predicciones que se hacen en el POST y luego permite descargarlas como un archivo CSV con la información más relevante de cada predicción, como la marca predicha, la confianza, el tiempo de ejecucion y el tamaño de la imagen.
+3. **GET /reports**: Este endpoint guarda todas las predicciones que se hacen en el POST y luego en la interfaz de FastAPI nos permitira descargarlas como un archivo CSV con la información más relevante de cada predicción, como la marca predicha, la confianza, el tiempo de ejecucion y el tamaño de la imagen.
 
 ## Uso 🖥️⌨️
 
@@ -40,6 +40,7 @@ Las contribuciones son bienvenidas. Si tienes alguna sugerencia o mejora, no dud
 ## Dataset usado:💻
 * https://www.kaggle.com/datasets/ritesh2000/car-brand-images-dataset
 (Personalmente aumente la marca Porsche para variar el dataset original)
-## Autor:✒️
 
+## Autor:✒️
 * **Gabriel Neme** -[GaboRex](https://github.com/GaboRex)
+**56189**
