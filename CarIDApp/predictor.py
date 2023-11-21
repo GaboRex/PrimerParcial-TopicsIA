@@ -6,7 +6,7 @@ import datetime
 
 
 class CarBrandPredictor:
-    MODEL_PATH = "C:/Users/gabon/Dev/PrimerParcialIA/PrimerParcial-TopicsIA/Training/runs/classify/train21/weights/best.pt"
+    MODEL_PATH = "CarIDApp/best.pt"
 
     def __init__(self):
         print("Creando predictor...")
