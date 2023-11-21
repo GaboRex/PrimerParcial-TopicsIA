@@ -1,9 +1,9 @@
 import io
 import cv2
+import numpy as np
 from fastapi import FastAPI, UploadFile, HTTPException, status, Depends
 from fastapi.responses import Response, StreamingResponse
 from PIL import Image
-import numpy as np
 from schemas import ImageData, PredictionResult
 from predictor import CarBrandPredictor
 from status_handler import get_model_status
